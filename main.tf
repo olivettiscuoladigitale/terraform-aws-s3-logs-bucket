@@ -23,6 +23,8 @@ resource "aws_s3_bucket" "logs" {
     }
   }
 
+  policy = var.policy
+
   tags = var.tags
 }
 

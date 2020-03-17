@@ -19,3 +19,7 @@ variable "glacier_transition_days" {
 variable "expiration" {
   default = 90
 }
+
+variable "policy" {
+  default = ""
+}
